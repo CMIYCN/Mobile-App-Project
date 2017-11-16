@@ -27,4 +27,9 @@ public class LoginOptionsActivity extends WelcomeActivity {
         startActivity(intent);
     }
 
+    public void adminLogin(View view){
+        Intent intent = new Intent(this, AdminLoginActivity.class);
+        startActivity(intent);
+    }
+
 }

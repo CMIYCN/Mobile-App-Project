@@ -23,6 +23,8 @@
             android:label="Buildings"></activity>
         <activity android:name=".UserLoginActivity"
             android:label="User Login"></activity>
+        <activity android:name=".AdminLoginActivity"
+            android:label="Admin Login"></activity>
     </application>
 
 </manifest>
