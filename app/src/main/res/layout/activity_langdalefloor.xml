@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.spc26.rate_ing_bathroom.LangdaleFloorActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relative_two"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one3"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mens_text_one2"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <Button
+                    android:id="@+id/floor_one_button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Floor 1" />
+
+                <TextView
+                    android:id="@+id/mens_text_one2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Men's Bathroom Average Rating: " />
+
+                <RatingBar
+                    android:id="@+id/rating_bar_one1"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <TextView
+                    android:id="@+id/women_text_one2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mens_rating_one3"
+                    android:text="Women's Bathroom Average Rating: " />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_one"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <Button
+                    android:id="@+id/floor_one_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Floor 2" />
+
+                <TextView
+                    android:id="@+id/mens_text_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Men's Bathroom Average Rating: " />
+
+                <TextView
+                    android:id="@+id/women_text_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/rating_bar_one"
+                    android:text="Women's Bathroom Average Rating: " />
+
+                <RatingBar
+                    android:id="@+id/rating_bar_one"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mens_text_one"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <RatingBar
+                    android:id="@+id/rating_bar_one2"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_three"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one5"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one4"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mens_text_one3"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <Button
+                    android:id="@+id/floor_one_button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Floor 3" />
+
+                <TextView
+                    android:id="@+id/mens_text_one3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Men's Bathroom Average Rating: " />
+
+                <TextView
+                    android:id="@+id/women_text_one3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="15dp"
+                    android:text="Women's Bathroom Average Rating: " />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_four"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one6"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one7"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mens_text_one4"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <Button
+                    android:id="@+id/floor_one_button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Floor 4" />
+
+                <TextView
+                    android:id="@+id/mens_text_one4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Men's Bathroom Average Rating: " />
+
+                <TextView
+                    android:id="@+id/women_text_one4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="15dp"
+                    android:text="Women's Bathroom Average Rating: " />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_five"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one8"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mens_text_one5"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <Button
+                    android:id="@+id/floor_one_button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Floor 5" />
+
+                <TextView
+                    android:id="@+id/mens_text_one5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Men's Bathroom Average Rating: " />
+
+                <TextView
+                    android:id="@+id/women_text_one5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="15dp"
+                    android:text="Women's Bathroom Average Rating: " />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_six"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one9"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="186dp" />
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one10"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mens_text_one6"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <Button
+                    android:id="@+id/floor_one_button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Floor 6" />
+
+                <TextView
+                    android:id="@+id/mens_text_one6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Men's Bathroom Average Rating: " />
+
+                <TextView
+                    android:id="@+id/women_text_one6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="15dp"
+                    android:text="Women's Bathroom Average Rating: " />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_seven"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one11"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="103dp" />
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one12"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mens_text_one7"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <Button
+                    android:id="@+id/floor_one_button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Floor 7" />
+
+                <TextView
+                    android:id="@+id/mens_text_one7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Men's Bathroom Average Rating: " />
+
+                <TextView
+                    android:id="@+id/women_text_one7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="15dp"
+                    android:text="Women's Bathroom Average Rating: " />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_eight"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one13"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="103dp" />
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one14"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mens_text_one8"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <Button
+                    android:id="@+id/floor_one_button8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Floor 8" />
+
+                <TextView
+                    android:id="@+id/mens_text_one8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Men's Bathroom Average Rating: " />
+
+                <TextView
+                    android:id="@+id/women_text_one8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="15dp"
+                    android:text="Women's Bathroom Average Rating: " />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_nine"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one15"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="103dp" />
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one16"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mens_text_one9"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <Button
+                    android:id="@+id/floor_one_button9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Floor 9" />
+
+                <TextView
+                    android:id="@+id/mens_text_one9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Men's Bathroom Average Rating: " />
+
+                <TextView
+                    android:id="@+id/women_text_one9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="15dp"
+                    android:text="Women's Bathroom Average Rating: " />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_ten"
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one19"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="103dp" />
+
+                <RatingBar
+                    android:id="@+id/mens_rating_one20"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/mens_text_one11"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.1" />
+
+                <Button
+                    android:id="@+id/floor_one_button11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Floor 10" />
+
+                <TextView
+                    android:id="@+id/mens_text_one11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Men's Bathroom Average Rating: " />
+
+                <TextView
+                    android:id="@+id/women_text_one11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="15dp"
+                    android:text="Women's Bathroom Average Rating: " />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
