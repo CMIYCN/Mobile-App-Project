@@ -20,7 +20,7 @@
         <activity android:name=".LoginOptionsActivity"
             android:label="Login Options">
         </activity>
-        <activity android:name=".BuildingSelectionActivity"
+        <activity android:name=".AdminViewActivity"
             android:label="Buildings"></activity>
         <activity android:name=".UserLoginActivity"
             android:label="User Login"></activity>
@@ -32,6 +32,14 @@
             android:label="Aderhold Learning Center"></activity>
         <activity android:name=".SignUpActivity"
             android:label="Sign Up"></activity>
+        <activity android:name=".LangdaleFloorSelectionActivity"
+            android:label="Langdale Floors"></activity>
+        <activity android:name=".AderholdFloorSelectionActivity"
+            android:label="Aderhold Floors"></activity>
+        <activity android:name=".BuildingSelectionActivity"
+            android:label="Buildings"></activity>
+        <activity android:name=".SelectBathroomActivity"
+            android:label="Select A Bathroom"></activity>
     </application>
 
 </manifest>

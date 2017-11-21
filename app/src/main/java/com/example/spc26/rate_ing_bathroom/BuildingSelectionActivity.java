@@ -1,6 +1,5 @@
 package com.example.spc26.rate_ing_bathroom;
 
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +8,7 @@ import android.widget.Button;
 import android.widget.RadioButton;
 
 /**
- * Created by spc26 on 11/15/2017.
+ * Created by spc26 on 11/20/2017.
  */
 
 public class BuildingSelectionActivity extends AppCompatActivity {
@@ -19,7 +18,7 @@ public class BuildingSelectionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_buildings);
+        setContentView(R.layout.activity_building);
         nextButton = (Button) findViewById(R.id.button_next);
 
     }
@@ -34,20 +33,21 @@ public class BuildingSelectionActivity extends AppCompatActivity {
                     nextButton.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            startActivity(new Intent(getApplicationContext(), LangdaleFloorActivity.class));
+                            startActivity(new Intent(getApplicationContext(), LangdaleFloorSelectionActivity.class));
                         }
                     });
-               break;
+                break;
             case R.id.building2:
                 if(checked)
                     nextButton.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            startActivity(new Intent(getApplicationContext(), AderholdFloorActivity.class));
+                            startActivity(new Intent(getApplicationContext(), AderholdFloorSelectionActivity.class));
                         }
                     });
                 break;
         }
     }
+
 
 }

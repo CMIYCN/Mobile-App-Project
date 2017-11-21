@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.Toast;
 //import android.widget.EditText;
 
@@ -28,8 +27,8 @@ public class UserLoginActivity extends AppCompatActivity {
         password = (EditText) findViewById(R.id.textPassword);
         userLogin = (Button)findViewById(R.id.buttonLogin);
         signUp = (Button) findViewById(R.id.buttonSignup);
-        final Toast toast1 = Toast.makeText(getApplicationContext(), "Username and Password don't exist", Toast.LENGTH_LONG);
-        final Toast toast2 = Toast.makeText(getApplicationContext(), "Please enter the username and password", Toast.LENGTH_LONG);
+        final Toast toast = Toast.makeText(getApplicationContext(), "Username and Password don't exist", Toast.LENGTH_LONG);
+//        final Toast toast2 = Toast.makeText(getApplicationContext(), "Please enter the username and password", Toast.LENGTH_LONG);
 
         userLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,7 +36,7 @@ public class UserLoginActivity extends AppCompatActivity {
                 if(username.getText().toString().equals("User0001") && password.getText().toString().equals("Pass0001")){
                     startActivity(new Intent(getApplicationContext(), BuildingSelectionActivity.class));
                 }else {
-                    toast1.show();
+                    toast.show();
                     username.setText(" ");
                     password.setText(null);
                 }
