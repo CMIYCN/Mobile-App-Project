@@ -40,6 +40,12 @@
             android:label="Buildings"></activity>
         <activity android:name=".SelectBathroomActivity"
             android:label="Select A Bathroom"></activity>
+        <activity android:name=".MenBathroomActivity"
+            android:label="Men's Bathroom"></activity>
+        <activity android:name=".WomenBathroomActivity"
+            android:label="Women's Bathroom"></activity>
+        <activity android:name=".UserViewActivity"
+            android:label="Buildings"></activity>
     </application>
 
 </manifest>

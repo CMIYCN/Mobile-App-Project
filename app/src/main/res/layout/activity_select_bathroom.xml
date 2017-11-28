@@ -8,27 +8,26 @@
     tools:context="com.example.spc26.rate_ing_bathroom.SelectBathroomActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_men"
         android:layout_width="169dp"
         android:layout_height="81dp"
         android:layout_marginBottom="27dp"
         android:layout_marginTop="92dp"
-        android:onClick="select_mens"
-        android:text="Mens"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:text="Men"
+        app:layout_constraintBottom_toTopOf="@+id/button_women"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_women"
         android:layout_width="169dp"
         android:layout_height="81dp"
         android:layout_marginBottom="248dp"
-        android:text="Womens"
+        android:text="Women"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button_men" />
 </android.support.constraint.ConstraintLayout>

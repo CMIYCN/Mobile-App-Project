@@ -18,6 +18,9 @@ public class LangdaleFloorSelectionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstance) {
 
+
+        super.onCreate(savedInstance);
+        setContentView(R.layout.activity_langdale_floorselection);
         floorOne = (Button) findViewById(R.id.floor_one_button);
         floorTwo = (Button) findViewById(R.id.floor_one_button2);
         floorThree = (Button) findViewById(R.id.floor_one_button3);
@@ -28,8 +31,6 @@ public class LangdaleFloorSelectionActivity extends AppCompatActivity {
         floorEight = (Button) findViewById(R.id.floor_one_button8);
         floorNine = (Button) findViewById(R.id.floor_one_button9);
         floorTen = (Button) findViewById(R.id.floor_one_button10);
-        super.onCreate(savedInstance);
-        setContentView(R.layout.activity_langdale_floorselection);
 
         floorOne.setOnClickListener(new View.OnClickListener() {
             @Override

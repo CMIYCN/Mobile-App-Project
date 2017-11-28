@@ -34,7 +34,7 @@ public class UserLoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(username.getText().toString().equals("User0001") && password.getText().toString().equals("Pass0001")){
-                    startActivity(new Intent(getApplicationContext(), BuildingSelectionActivity.class));
+                    startActivity(new Intent(getApplicationContext(), UserViewActivity.class));
                 }else {
                     toast.show();
                     username.setText(" ");
