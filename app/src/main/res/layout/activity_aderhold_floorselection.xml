@@ -5,13 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools">
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#95BCF2"
+        >
 
         <LinearLayout
             android:id="@+id/floor_layout"
             android:layout_width="395dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:background="#95BCF2"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="447dp">
 

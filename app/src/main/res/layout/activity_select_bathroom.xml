@@ -5,6 +5,7 @@
     android:id="@+id/select_bathroom"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00918A"
     tools:context="com.example.spc26.rate_ing_bathroom.SelectBathroomActivity">
 
     <Button
